@@ -19,7 +19,7 @@ Mittels `JSON.stringify( ... )` und `JSON.parse( ... )` können Objekte in einen
 
 **Aus ihrer Git-Historie sollte hervorgehen, dass die Aufgaben in der hier vorgegebenen Reihenfolge gelöst wurden.**
 ### Aufgabe 1
-Schreiben sie ein Programm in Node.js, das die Datei [wolkenkratzer.json](wolkenkratzer.json) ausliest und die Liste der Wolkenkratzer in folgender Form auf der Konsole ausgibt:
+Schreiben sie ein Programm in Node.js, das die Datei [wolkenkratzer.json](wolkenkratzer.json) ausliest und die darin enthaltene Liste von Wolkenkratzern in folgender Form auf der Konsole ausgibt:
 
 ```
 Name: Burj Khalifa
@@ -32,6 +32,8 @@ Höhe: 632m
 --------------------
 ...
 ```
+
+Verwenden sie zum Auslesen der Datei die oben genannten **asynchronen** Funktionen des fs-Moduls.
 
 ### Aufgabe 2
 Erweitern sie das Programm aus Aufgabe 2 so, dass die Namen, Städte und Höhenangaben jeweils **farbig** ausgegeben werden. Hierzu können sie das Modul ```chalk``` verwenden, welches auch im Workshop vorgestellt wurde. Erstellen zu ihrem Programm auch eine ```package.json```-Datei, welche unter anderem die Modulabhängigkeiten definiert.
