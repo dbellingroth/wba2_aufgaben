@@ -14,7 +14,7 @@ Die Funktion `fs.writeFile(__dirname+"dateiname", data, function(err) { ... });`
 Mittels `JSON.stringify( ... )` und `JSON.parse( ... )` können Objekte in einen JSON-String umgewandelt werden und umgekehrt.
 
 ### Aufgabe 1
-Schreiben sie ein Programm in Node.js, das die Datei `wolkenkratzer.json` ausliest und die Liste der Wolkenkratzer in folgender Form auf der Konsole ausgibt:
+Schreiben sie ein Programm in Node.js, das die Datei [[wolkenkratzer.json]] ausliest und die Liste der Wolkenkratzer in folgender Form auf der Konsole ausgibt:
 
 ```
 Name: Burj Khalifa
@@ -26,64 +26,6 @@ Stadt: Shanghai
 Höhe: 632m
 --------------------
 ...
-```
-
-#### wolkenkratzer.json
-```javascript
-{
-   "wolkenkratzer":[
-      {
-         "name":"Burj Khalifa",
-         "stadt":"Dubai",
-         "hoehe":828
-      },
-      {
-         "name":"Shanghai Tower",
-         "stadt":"Shanghai",
-         "hoehe":632
-      },
-      {
-         "name":"Mecca Royal Clock Tower Hotel",
-         "stadt":"Mekka",
-         "hoehe":601
-      },
-      {
-         "name":"One World Trade Center",
-         "stadt":"New York City",
-         "hoehe":541
-      },
-      {
-         "name":"CTF Finance Centre",
-         "stadt":"Guangzhou",
-         "hoehe":530
-      },
-      {
-         "name":"Taipei 101",
-         "stadt":"Tapei",
-         "hoehe":508
-      },
-      {
-         "name":"Shanghai World Financial Center",
-         "stadt":"Shanghai",
-         "hoehe":492
-      },
-      {
-         "name":"International Commerce Centre",
-         "stadt":"Hongkong",
-         "hoehe":484
-      },
-      {
-         "name":"Petronas Towers",
-         "stadt":"Kuala Lumpur",
-         "hoehe":452
-      },
-      {
-         "name":"Zifeng Tower",
-         "stadt":"Nanjing",
-         "hoehe":450
-      }
-   ]
-}
 ```
 
 ### Aufgabe 2
