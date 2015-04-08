@@ -14,7 +14,7 @@ Die Funktion `fs.writeFile(__dirname+"dateiname", data, function(err) { ... });`
 Mittels `JSON.stringify( ... )` und `JSON.parse( ... )` können Objekte in einen JSON-String umgewandelt werden und umgekehrt.
 
 ### Aufgabe 1
-Schreiben sie ein Programm in Node.js, das die Datei [[wolkenkratzer.json]] ausliest und die Liste der Wolkenkratzer in folgender Form auf der Konsole ausgibt:
+Schreiben sie ein Programm in Node.js, das die Datei [wolkenkratzer.json] ausliest und die Liste der Wolkenkratzer in folgender Form auf der Konsole ausgibt:
 
 ```
 Name: Burj Khalifa
