@@ -34,6 +34,6 @@ Erweitern sie das Programm aus Aufgabe 2 so, dass die Namen, Städte und Höhena
 ### Aufgabe 3
 Erweitern sie das Programm aus Aufgabe 2 so, dass es die Wolkenkratzer der Höhe nach sortiert, die sortierte Liste in der neuen Datei `wolkenkratzer_sortiert.json` speichert und sie erst danach auf der Konsole ausgibt.
 
-Informationen zum sortieren von Arrays in Javascript finden sie beispielsweise [hier](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+Informationen zum sortieren von Arrays in Javascript finden sie beispielsweise [hier](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
 
 **Aus ihrer Git-Historie sollte hervorgehen, dass die Aufgaben in der hier vorgegebenen Reihenfolge gelöst wurden.**
