@@ -17,7 +17,7 @@ Weitere Informationen zum fs-Modul von node.js finden sie in der [Dokumentation]
 Mittels `JSON.stringify( ... )` und `JSON.parse( ... )` können Objekte in einen JSON-String umgewandelt werden und umgekehrt.
 
 
-**Aus ihrer Git-Historie sollte hervorgehen, dass die Aufgaben in der hier vorgegebenen Reihenfolge gelöst wurden.**
+**Wichtig: Aus ihrer Git-Historie sollte hervorgehen, dass die Aufgaben in der hier vorgegebenen Reihenfolge gelöst wurden. Erstellen sie also pro Aufgabe mindestens einen seperaten Commit.**
 ### Aufgabe 1
 Schreiben sie ein Programm in Node.js, das die Datei [wolkenkratzer.json](wolkenkratzer.json) ausliest und die darin enthaltene Liste von Wolkenkratzern in folgender Form auf der Konsole ausgibt:
 
