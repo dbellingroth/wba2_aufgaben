@@ -1,4 +1,5 @@
 ## Aufgaben zum Kickoff-Workshop
+### Grundlegende Informationen
 Node.js bietet hat das Modul _fs_ integriert, welches den Zugriff auf Dateien ermöglicht.
 
 ```javascript
@@ -11,8 +12,12 @@ Die Variable `__dirname` enthält den Namen des Verzeichnisses, in dem das aktue
 
 Die Funktion `fs.writeFile(__dirname+"dateiname", data, function(err) { ... });` ermöglicht das schreiben von Dateien.
 
+Weitere Informationen zum fs-Modul von node.js finden sie in der [Dokumentation](https://nodejs.org/api/fs.html)
+
 Mittels `JSON.stringify( ... )` und `JSON.parse( ... )` können Objekte in einen JSON-String umgewandelt werden und umgekehrt.
 
+
+**Aus ihrer Git-Historie sollte hervorgehen, dass die Aufgaben in der hier vorgegebenen Reihenfolge gelöst wurden.**
 ### Aufgabe 1
 Schreiben sie ein Programm in Node.js, das die Datei [wolkenkratzer.json](wolkenkratzer.json) ausliest und die Liste der Wolkenkratzer in folgender Form auf der Konsole ausgibt:
 
@@ -35,5 +40,3 @@ Erweitern sie das Programm aus Aufgabe 2 so, dass die Namen, Städte und Höhena
 Erweitern sie das Programm aus Aufgabe 2 so, dass es die Wolkenkratzer der Höhe nach sortiert, die sortierte Liste in der neuen Datei `wolkenkratzer_sortiert.json` speichert und sie erst danach auf der Konsole ausgibt.
 
 Informationen zum sortieren von Arrays in Javascript finden sie beispielsweise [hier](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
-
-**Aus ihrer Git-Historie sollte hervorgehen, dass die Aufgaben in der hier vorgegebenen Reihenfolge gelöst wurden.**
