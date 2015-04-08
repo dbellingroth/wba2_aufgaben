@@ -6,11 +6,11 @@ Node.js bietet hat das Modul _fs_ integriert, welches den Zugriff auf Dateien er
 var fs = require('fs');
 ```
 
-Die Funktion `fs.readFile(__dirname+"/dateiname", function(err, data) { ... });` ermöglicht das auslesen von Dateien.
+Die Funktion `fs.readFile(__dirname+"/dateiname", function(err, data) { ... });` ermöglicht das asynchrone Auslesen von Dateien.
 
 Die Variable `__dirname` enthält den Namen des Verzeichnisses, in dem das aktuelle Programm liegt. Der Parameter `data` ist normalerweise eine Buffer mit Binärdaten, der mittels `.toString()` in einen String umgewandelt werden kann.
 
-Die Funktion `fs.writeFile(__dirname+"dateiname", data, function(err) { ... });` ermöglicht das schreiben von Dateien.
+Die Funktion `fs.writeFile(__dirname+"dateiname", data, function(err) { ... });` ermöglicht das asynchrone Schreiben von Dateien.
 
 Weitere Informationen zum fs-Modul von node.js finden sie in der [Dokumentation](https://nodejs.org/api/fs.html)
 
