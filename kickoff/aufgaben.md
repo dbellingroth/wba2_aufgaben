@@ -8,7 +8,7 @@ var fs = require('fs');
 
 Die Funktion `fs.readFile(__dirname+"/dateiname", function(err, data) { ... });` ermöglicht das asynchrone Auslesen von Dateien.
 
-Die Variable `__dirname` enthält den Namen des Verzeichnisses, in dem das aktuelle Programm liegt. Der Parameter `data` ist normalerweise ein Buffer mit Binärdaten, der mittels `data.toString()` in einen String umgewandelt werden kann.
+Die Variable `__dirname` enthält den Namen des Verzeichnisses, in dem das aktuelle Programm liegt. Er wird in diesem Beispiel vor den Pfad angehängt, um eine vollständige Pfadangabe zu vermeiden. Der Parameter `data` ist normalerweise ein Buffer mit Binärdaten, der mittels `data.toString()` in einen String umgewandelt werden kann.
 
 Die Funktion `fs.writeFile(__dirname+"dateiname", data, function(err) { ... });` ermöglicht das asynchrone Schreiben von Dateien.
 
