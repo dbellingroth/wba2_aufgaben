@@ -8,11 +8,11 @@ var fs = require('fs');
 
 Die Funktion `fs.readFile(__dirname+"/dateiname", function(err, data) { ... });` ermöglicht das asynchrone Auslesen von Dateien.
 
-Die Variable `__dirname` enthält den Namen des Verzeichnisses, in dem das aktuelle Programm liegt. Der Parameter `data` ist normalerweise eine Buffer mit Binärdaten, der mittels `.toString()` in einen String umgewandelt werden kann.
+Die Variable `__dirname` enthält den Namen des Verzeichnisses, in dem das aktuelle Programm liegt. Der Parameter `data` ist normalerweise ein Buffer mit Binärdaten, der mittels `data.toString()` in einen String umgewandelt werden kann.
 
 Die Funktion `fs.writeFile(__dirname+"dateiname", data, function(err) { ... });` ermöglicht das asynchrone Schreiben von Dateien.
 
-Weitere Informationen zum fs-Modul von node.js finden sie in der [Dokumentation](https://nodejs.org/api/fs.html)
+Weitere Informationen zum fs-Modul von node.js finden sie in der [Dokumentation](https://nodejs.org/api/fs.html).
 
 Mittels `JSON.stringify( ... )` und `JSON.parse( ... )` können Objekte in einen JSON-String umgewandelt werden und umgekehrt.
 
