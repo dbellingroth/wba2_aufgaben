@@ -36,7 +36,7 @@ Höhe: 632m
 Verwenden sie zum Auslesen der Datei die oben genannten **asynchronen** Funktionen des fs-Moduls.
 
 ### Aufgabe 2
-Erweitern sie das Programm aus Aufgabe 2 so, dass die Namen, Städte und Höhenangaben jeweils **farbig** ausgegeben werden. Hierzu können sie das Modul ```chalk``` verwenden, welches auch im Workshop vorgestellt wurde. Erstellen zu ihrem Programm auch eine ```package.json```-Datei, welche unter anderem die Modulabhängigkeiten definiert. Mehr Informationen ```package.json``` finden sie in der [NPM-Dokumentation](https://docs.npmjs.com/files/package.json)
+Erweitern sie das Programm aus Aufgabe 2 so, dass die Namen, Städte und Höhenangaben jeweils **farbig** ausgegeben werden. Hierzu können sie das Modul ```chalk``` verwenden, welches auch im Workshop vorgestellt wurde. Erstellen zu ihrem Programm auch eine ```package.json```-Datei, welche unter anderem die Modulabhängigkeiten definiert. Mehr Informationen ```package.json``` finden sie in der [NPM-Dokumentation](https://docs.npmjs.com/files/package.json).
 
 ### Aufgabe 3
 Erweitern sie das Programm aus Aufgabe 2 so, dass es die Wolkenkratzer der Höhe nach sortiert, die sortierte Liste in der neuen Datei `wolkenkratzer_sortiert.json` speichert und sie erst danach auf der Konsole ausgibt.
