@@ -1,19 +1,9 @@
 {
    "wolkenkratzer":[
       {
-         "name":"Burj Khalifa",
-         "stadt":"Dubai",
-         "hoehe":828
-      },
-      {
          "name":"Shanghai Tower",
          "stadt":"Shanghai",
          "hoehe":632
-      },
-      {
-         "name":"Mecca Royal Clock Tower Hotel",
-         "stadt":"Mekka",
-         "hoehe":601
       },
       {
          "name":"One World Trade Center",
@@ -31,14 +21,14 @@
          "hoehe":508
       },
       {
+         "name":"Burj Khalifa",
+         "stadt":"Dubai",
+         "hoehe":828
+      },
+      {
          "name":"Shanghai World Financial Center",
          "stadt":"Shanghai",
          "hoehe":492
-      },
-      {
-         "name":"International Commerce Centre",
-         "stadt":"Hongkong",
-         "hoehe":484
       },
       {
          "name":"Petronas Towers",
@@ -46,9 +36,19 @@
          "hoehe":452
       },
       {
+         "name":"International Commerce Centre",
+         "stadt":"Hongkong",
+         "hoehe":484
+      },
+      {
          "name":"Zifeng Tower",
          "stadt":"Nanjing",
          "hoehe":450
+      },
+            {
+         "name":"Mecca Royal Clock Tower Hotel",
+         "stadt":"Mekka",
+         "hoehe":601
       }
    ]
 }
